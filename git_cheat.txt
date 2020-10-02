@@ -1,0 +1,35 @@
+Указать данные пользователя:
+$ git config --global user.name ”UserName”
+$ git config --global user.email myname@example.com   
+
+
+Текущее состояние репозитория:
+$ git status 
+
+Добавить файл под версионный контроль/к коммиту:
+$ git add filename
+
+Коммит:
+$ git commit –m ”commit message”
+
+История изменений:
+$ git log 
+
+Удаление файла:
+$ git rm filename
+
+Добавить удаленный репозиторий:
+$ git remote add url
+
+Клонирование удаленного репозитория:
+$ git clone url 
+
+Получение и слияние данных:
+$ git pull [репозиторий][ветка]
+
+Только получение данных:
+$ git fetch [репозиторий][ветка]
+
+Отправка данных:
+$ git push [репозиторий][ветка]
+$ git push origin master
